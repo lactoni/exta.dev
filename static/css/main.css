@@ -1,0 +1,558 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    margin: 0
+}
+
+code {
+    font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace
+}
+
+body {
+    background-color: #1f1f1f;
+    color: silver;
+    font-family: Roboto,sans-serif;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.Exta {
+    margin-top: 100px
+}
+
+.Exta,.container {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.container {
+    padding: 0 20px
+}
+
+.container3 {
+    margin-top: 200px
+}
+
+.social {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: auto;
+    z-index: 9999
+}
+
+.social-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 9999
+}
+
+.social-button img {
+    display: block;
+    height: 35px;
+    width: 35px
+}
+
+.social-button:not(:last-child) {
+    margin-right: 20px
+}
+
+.profile {
+    background-color: #191818;
+    border: 2px solid #f2f2f23a;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px #0003;
+    overflow: hidden;
+    padding: 0;
+    width: 350px
+}
+
+.banner {
+    border-radius: 20px 20px 0 0;
+    height: 90%;
+    width: 100%
+}
+
+.discordGenii {
+    align-items: center;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    width: 350px
+}
+
+.status_custom {
+    height: 80px;
+    margin-left: 6rem;
+    margin-top: 6.3rem;
+    position: absolute;
+    width: 70px
+}
+
+.discordGenii img {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto
+}
+
+.discordGenii.non-draggable,.icon1 {
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none
+}
+
+.description,.info,.registration {
+    padding: 10px
+}
+
+.avatar-container {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: -60px;
+    position: relative
+}
+
+.avatar {
+    border: 5px solid #191818;
+    border-radius: 50%;
+    height: 70px;
+    pointer-events: none;
+    width: 70px
+}
+
+.status-indicator {
+    background-color: #4caf50;
+    border: 5px solid #191818;
+    border-radius: 50%;
+    bottom: 0;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    width: 15px
+}
+
+.profile-header {
+    align-items: center;
+    display: flex;
+    padding: 10px 0
+}
+
+.info {
+    margin-left: 10px
+}
+
+.about-me,.create,.name,.username {
+    color: #fff;
+    margin: 0 0 0 5px
+}
+
+.name {
+    color: #f2f2f2;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 2.5rem
+}
+
+.username {
+    color: #b5b5b5;
+    font-size: .9rem;
+    line-height: .9rem
+}
+
+.pronouns {
+    color: #999;
+    font-size: .75rem;
+    line-height: .9rem;
+    margin-left: 5px
+}
+
+.description-text {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6rem;
+    margin-left: 15px;
+    margin-top: 10px
+}
+
+.registration-text {
+    color: #999;
+    margin-left: 15px;
+    margin-top: 10px
+}
+
+.text1 {
+    color: #62a2ec!important;
+    line-height: 1.6rem;
+    margin-top: -15px;
+    z-index: 10000
+}
+
+.about-me {
+    margin-top: 10px
+}
+
+.about-me,.create {
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 15px
+}
+
+.create {
+    margin-top: -15px
+}
+
+.container1 {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center
+}
+
+.load {
+    height: auto;
+    width: 500px
+}
+
+.gif-container {
+    padding: 50px
+}
+
+.gif-container::-webkit-scrollbar {
+    display: none
+}
+
+.icons {
+    background-color: #232528;
+    border: 1px solid #292b2e;
+    border-radius: 5px;
+    float: left;
+    margin-left: 135px;
+    margin-top: -23px;
+    padding: 0 1px
+}
+
+.icon {
+    margin-top: 5px;
+    width: 20px
+}
+
+.line {
+    background-color: #2e2f34;
+    height: 1px;
+    margin-left: 25px;
+    margin-top: 7px;
+    width: 300px
+}
+
+.line1 {
+    border-left: 4px solid;
+    border-radius: 3px;
+    color: #4f545c!important;
+    margin-left: 15px;
+    margin-top: -15px;
+    padding-left: .6em
+}
+
+h1 {
+    font-size: 38px
+}
+
+.text-sky-500 {
+    color: #6180ff
+}
+
+.text-sky-400 {
+    color: #fff
+}
+
+@keyframes svelte-1vif4us-cursorFade {
+    0%,to {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+}
+
+.typewriter-container.svelte-1vif4us :not(.typing):not(.finished-typing):not([data-static]) {
+    display: none
+}
+
+.typewriter-container.svelte-1vif4us .finished-typing:after {
+    content: none
+}
+
+.cursor.svelte-1vif4us .typing:after {
+    animation: svelte-1vif4us-cursorFade 1s infinite;
+    display: inline-block
+}
+
+.typing {
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    justify-content: center
+}
+
+.typing-effect {
+    animation: typing 1.4s steps(22),effect .3s steps(1) infinite alternate;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 11.5ch
+}
+
+.finished-typing {
+    animation: blink 1s infinite
+}
+
+@keyframes typing {
+    0% {
+        width: 0
+    }
+}
+
+@keyframes effect {
+    50% {
+        border-color: #0000
+    }
+}
+
+@keyframes blink {
+    0%,to {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 0
+    }
+}
+
+body::-webkit-scrollbar {
+    width: .2em
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #6080ff
+}
+
+.app-container {
+    margin: auto;
+    max-width: 850px;
+    padding: 20px;
+    text-align: center
+}
+
+.cards-container {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    min-height: 300px;
+    overflow: hidden;
+    transition: transform .3s,box-shadow .3s;
+    width: 250px
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px #0003;
+    transform: translateY(-10px)
+}
+
+.icon1 {
+    border-bottom: 1px solid #ccc;
+    height: 250px;
+    object-fit: cover;
+    width: 100%
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center
+}
+
+.card-content h3 {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0
+}
+
+.card-content p {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #b5b5b5;
+    display: -webkit-box;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.card-content a {
+    background: #007bff;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: auto;
+    padding: 10px 15px;
+    text-decoration: none
+}
+
+.telegram {
+    color: #26a5e4
+}
+
+.discord {
+    color: #5865f2
+}
+
+.spotify {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #0000001a;
+    color: #fff;
+    font-family: Arial,sans-serif;
+    margin-bottom: 20px;
+    margin-left: 1.5rem;
+    margin-top: -10px;
+    padding: 10px;
+    width: 280px
+}
+
+.spotify h1 {
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-top: 1px
+}
+
+.spotify-row {
+    align-items: center;
+    display: flex
+}
+
+.album-art {
+    border-radius: 4px;
+    height: 80px;
+    width: 80px
+}
+
+.spotify-content {
+    margin-left: 10px
+}
+
+.spotify-content h3,.spotify-content p {
+    line-height: 20px;
+    margin: 0;
+    padding: 0
+}
+
+.spotify-content h3 {
+    color: #fff;
+    font-size: 16px
+}
+
+.spotify-content p {
+    color: #ccc;
+    font-size: 14px
+}
+
+#disable {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+.modal {
+    align-items: center;
+    background-color: #00000080;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999
+}
+
+.modal-content {
+    animation: slideIn .5s forwards;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #0000001a;
+    opacity: 0;
+    padding: 20px;
+    position: relative;
+    transform: translateY(-50px);
+    width: 350px
+}
+
+.telegram-channel {
+    -webkit-box-align: center;
+    align-items: center;
+    background: #0000;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    color: silver;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    margin: 5px auto 0;
+    padding: 14px 24px;
+    width: 100%
+}
+
+.title {
+    font-size: 20px
+}
+
+.banner-telegram {
+    border-radius: 10px;
+    width: 100%
+}
+
+.telegram-channel:hover {
+    border: 1px solid #4d4c4c
+}
+
+.telegram-logo {
+    height: 30px;
+    margin: 0 10px 0 0;
+    width: 30px
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.close-button {
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 10px;
+    position: absolute;
+    right: 28px;
+    top: 10px
+}
